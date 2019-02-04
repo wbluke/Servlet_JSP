@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원 인증</title>
+</head>
+<body>
+	<!-- 로그인과 로그아웃 모두 같은 logProc 서버에 요청하는데 어떻게 구분을 할까?
+		=> 요청방식의 차이 : 로그인은 post로, 로그아웃은 get 방식으로!
+	 -->
+	<form action="logProc" method="post">
+		ID : <input type="text" name="id"><br>
+		비밀번호 : <input type="password" name="pwd"><br>
+		<input type="submit" value="로그인">
+	</form>
+	
+	<p>
+	
+	<a href="logProc"> 로그아웃 </a>
+</body>
+</html>
