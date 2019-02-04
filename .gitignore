@@ -3,3 +3,5 @@
 .project
 .settings/
 META-INF/
+lib/
+classes/
