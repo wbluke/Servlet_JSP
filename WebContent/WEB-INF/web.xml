@@ -6,7 +6,7 @@
 		<param-value>/WEB-INF/context.xml</param-value>
 	</context-param>
 	
-	<filter>
+	<!-- <filter>
 		<filter-name>flow1</filter-name>
 		<filter-class>com.edu.test.FlowFilterOne</filter-class>
 	</filter>
@@ -27,8 +27,31 @@
 	<filter-mapping>
 		<filter-name>flow2</filter-name>
 		<url-pattern>/*</url-pattern>
-	</filter-mapping>
+	</filter-mapping> -->
 	
+	<!-- TestRequestListener -->
+	<!-- 
+	<listener>
+		<listener-class>com.edu.test.TestRequestListener</listener-class>
+	</listener> 
+	-->
+	
+	<!-- TestSessionListener & TestSessionAttributeListener -->
+	<!-- 
+	<listener>
+		<listener-class>com.edu.test.TestSessionListener</listener-class>
+	</listener>
+	<listener>
+		<listener-class>com.edu.test.TestSessionAttributeListener</listener-class>
+	</listener>
+	-->
+	 
+	<!-- TestServletContextListener -->
+	<!-- 
+	<listener>
+		<listener-class>com.edu.test.TestServletContextListener</listener-class>
+	</listener>
+	-->
 	
   	<servlet>
 		<servlet-name>servletConfigTest</servlet-name>
